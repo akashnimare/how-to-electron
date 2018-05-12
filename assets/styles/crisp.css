@@ -87,6 +87,7 @@ a {
 	font-weight:700;
 	text-decoration:none;
 	color: #9eeaf9; /* Change Link Color */
+	color: #444;
 }
 a:hover {
 	text-decoration:underline;
@@ -183,7 +184,8 @@ h3.post-title {
 	padding-bottom:0.9em;
 	border-bottom: 1px solid #eee;
 	font-size: 1.2em;
-	color: #444;
+	color: #9eeaf9; /* Change Link Color */
+
 }
 .post-title .feature-star {
 	font-size: 0.9em;
