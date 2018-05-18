@@ -265,7 +265,6 @@ h3.post-title {
     color: #ccc;
 }
 
-
 #social-bar {
     margin-top: 1.5em;
     padding: 0.5em;
@@ -302,9 +301,14 @@ h3.post-title {
     background-color: #212226
 }
 
+.postlist-tag {
+    float: inherit !important;
+}
+
 .taglist {
     float: right;
 }
+
 .taglist a {
     background-color: #ccc;
     color: #fff;
