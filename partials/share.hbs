@@ -16,8 +16,11 @@
     </div>
 
     <aside class="taglist">
+        {{#if tags}}
+
         Tags: {{tags separator=" "}}{{#if featured}}
         <i class="fa fa-star-o feature-star"></i>{{/if}}
+        {{/if}}
     </aside>
 
 
