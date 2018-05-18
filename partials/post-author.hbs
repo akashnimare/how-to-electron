@@ -1,0 +1,25 @@
+ {{! Everything inside the #author tags pulls data from the author }}
+ {{#author}}
+<section class="author-info">
+    <div class="row">
+        <section class="post-author small-12 columns">
+            {{#if profile_image}}
+            <img src="{{img_url profile_image}}" class="post-author-avatar" alt="{{name}}"> {{/if}}
+            <span class="author-details">
+                {{#if name}}
+                <span class="author-label">Author</span>
+                <h1>
+                    <a href="{{url}}" class="author-link-name">{{name}}</a>
+                </h1>
+                {{/if}} {{#if website}}
+                <p>
+                    <a href="{{website}}" class="author-website">{{website}}</a>
+                </p>
+                {{/if}} {{#if bio}}
+                <p>{{bio}}</p>
+                {{/if}}
+            </span>
+        </section>
+    </div>
+</section>
+{{/author}}
