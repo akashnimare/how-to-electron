@@ -41,12 +41,7 @@ header {
     width: 100%;
 }
 
-footer {
-    padding: 1em 0em 2.5em 0em;
-    font-size: 0.8em;
-    line-height: 1.5em;
-    color: #888;
-}
+
 
 article {
     border-bottom: 0.1em #eee solid;
@@ -454,14 +449,24 @@ h3.post-title {
 footer a {
     font-weight: 300;
     color: #888;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 footer a:hover {
     color: #444;
-    text-decoration: none;
 }
 
+
+footer {
+    padding: 1em 0em 2.5em 0em;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    color: #888;
+}
+
+footer .fa-heart {
+    color: #d85151;
+}
 /* Large Screens */
 
 @media only screen and (min-width: 1281px) {
